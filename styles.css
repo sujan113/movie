@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+/* BODY */
+
+body {
+	font-family: Arial, Helvetica, sans-serif, monospace,'Neucha', cursive, 'Playfair Display', serif;
+	background-color: none;
+	background-image: url("Avatarp.jpg");
+	background-repeat:round;
+	background-attachment: fixed;
+	background-size:1500px;
+	height: 1100px;
+	color: white;
+}
+
+
+/* HEADER */
+strong{
+	font-family: 'Neucha';
+}
+
+header {
+	height: 900px;
+}
+
+.tagline {
+	text-transform: uppercase;
+	font-weight: 30px;
+	color: black;
+	letter-spacing: 3.5px;
+}
+.tagline span {
+	font-weight: 700;
+	color: white;
+	font-size: 25px;
+}
+
+header section {
+	margin-top: 600px;
+	/* background-color: rgba(6,6,6,.4); */
+	padding: 20px 0;
+}
+
+header section:first-child {
+	margin-top: 20px;
+	font-size: 24px;
+	padding: 0;
+}
+
+header small, header span {
+	font-weight: normal;
+	font-variant: small-caps;
+	line-height: 0.2;
+}
+
+
+header p span {
+	margin: 0 0 10px 0;
+	font-size: 38px;
+}
+
+/* INCLUDING ANNIMATION TO TITLE OF MOVIE */
+
+@keyframes animation {
+    from {color: blue;}
+    to {color: teal;}
+	}
+h1 {
+	color: teal;
+	text-transform: uppercase;
+	font-size: 145px;
+	margin: 0;
+	line-height: 1;
+	letter-spacing: 50px;
+	color: teal;
+    animation-name: animation;
+    animation-duration: 2s;
+		animation-iteration-count: infinite;
+}
+
+/* NAMES SECTION */
+
+section, div {
+	text-align: center;
+}
+
+div {
+	text-transform: uppercase;
+	font-size: 30px;
+	word-spacing: 1px;
+	font-weight: 200;
+	line-height: 0.9;
+	width: 71%;
+	margin: 0 auto;
+	color: black;
+	font-family:'Playfair Display';
+	letter-spacing: -2.2px;
+}
+small{
+	font-size: 20px;
+}
+
+/* FOOTER */
+
+footer {
+	text-align: center;
+	font-style: italic;
+	width: 70%;
+	margin: 0 auto;
+}
+
+footer a {
+	color: black;
+	font-size: 20px;
+}
+
+footer img {
+	height: 70px;
+	width: auto;
+
+}
+
+/* LOGO positioning */
+
+.logo1{
+	float: left;
+	margin-left: 11px
+}
+
+.logo2{
+	float: right;
+	margin-right: 11px;
+}
